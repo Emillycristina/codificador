@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Ferramenta de codificação</title>
+    <script defer  src= "teste.js" ></script>
+    <link rel="stylesheet" type ="text/css"  href ="estilo.css">
+
+</head>
+
+<body >
+  
+    <div class="container">
+ 
+        <section class="caixa">
+
+            <h1>Vamos lá, digite seu texto:</h1></br></br>
+            
+            <hr></br></br>
+             
+            <h4> ESCOLHA QUAL TIPO DE CONVERSÃO DESEJA:</h4></br>
+            <textarea type = "text"   class="campo1"  placeholder="Digite seu texto aqui."  id= "text"></textarea></br>
+            <select name = "escolha " id="escolha" class= "seletor" value = "Escolha uma opção.">  
+                <option  disabled selected >  Escolha uma opção:  </option>
+                <option  value=" Cifra de César" id="escolha1"> Codificar Cifra de César</option>
+                <option  value=" Base64" id = "escolha2"> Codificar Base64</option>
+            </select> </br></br>
+             
+            <input type = "number" min="0" max="25" id="chave"  class="campo" placeholder= "Escolha uma incremento:"></input></br></br>
+
+            <textarea type = "text" disabled  class="campo1"  placeholder="Aguarde a Codificação/Decodificação."  id= "text2"> </textarea></br>
+
+            <input type ="submit" value= "Codificar" id= "btn1"  class= "botão"  onclick=" call.funcs(this) "></input>
+            
+            <input type ="submit" value= "Decodificar" id="btn2" class= "botão" onclick="call.funcs(this)"></input></br></br>
+            
+
+            
+
+
+
+        </section>
+
+
+
+  
+
+   </div>
+  
+     
+   
+   
+   <img src="chave.png" >
+
+
+</body>
+
+
+
+</html>
+
